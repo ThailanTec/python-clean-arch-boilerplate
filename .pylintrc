@@ -3,14 +3,15 @@
 # Disabled
 
 disable:
-      C0116, # Desabilitar descrição da função
-      E0015, 
-      C0114,
-      W0703,
-      C0209,
-      C0321,
-      W0221,
-      R0801,
+      C0116,  # Desabilita a mensagem: "missing function or method docstring" (falta de docstring na função ou método)
+      E0015,  # Desabilita a mensagem: "inconsistent use of 'self'" (uso inconsistente de 'self' em métodos)
+      C0114,  # Desabilita a mensagem: "missing module docstring" (falta de docstring no módulo)
+      W0703,  # Desabilita a mensagem: "catching broad exception" (captura de exceção ampla)
+      C0209,  # Desabilita a mensagem: "format string without parameters" (string de formato sem parâmetros)
+      C0321,  # Desabilita a mensagem: "multiple statements on one line" (múltiplas instruções em uma linha)
+      W0221,  # Desabilita a mensagem: "arguments-differ" (os argumentos da função diferem da definição)
+      R0801,  # Desabilita a mensagem: "duplicate-code" (código duplicado)
+
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
